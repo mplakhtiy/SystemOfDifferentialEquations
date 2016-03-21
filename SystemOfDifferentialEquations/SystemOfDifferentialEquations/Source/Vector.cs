@@ -2,7 +2,7 @@
 
 namespace SystemOfDifferentialEquations.Source
 {
-    class Vector
+    public  class Vector
     {
         private double[] vector { get; set; }
         public int Length { get; set; }

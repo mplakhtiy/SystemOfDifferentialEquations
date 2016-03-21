@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SystemOfDifferentialEquations.Source
 {
-    class Matrix
+    public class Matrix
     {
         private double[,] matrix { get; set; }
         public int Length { get; private set; }
